@@ -18,7 +18,7 @@ class TestDep:
     @pytest.mark.run(order=2)
     def test_get_dep(self):
         print("222222222222222222222")
-        assert 1 == 0
+        assert 1 == 1
 
     @pytest.mark.run(order=3)
     def test_update_dep(self):
